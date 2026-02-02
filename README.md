@@ -52,8 +52,11 @@ ________________________________________
 kmeans-clustering-project/
 
 │
+
 ├── kmeans_scratch.py        # K-Means implementation from scratch
+
 ├── main.py                  # Dataset generation, comparison & visualization
+
 ├── README.md                # Project documentation
 ________________________________________
 ⚙️ Implementation Details
