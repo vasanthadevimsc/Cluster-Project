@@ -1,16 +1,24 @@
 # Cluster-Project
 ________________________________________
 📊 Implementing and Comparing K-Means Clustering on Synthetic Data
+
 📌 Project Overview
+
 This project implements the K-Means clustering algorithm from scratch using NumPy and compares its performance with Scikit-learn’s optimized KMeans implementation.
 A synthetic dataset is generated using sklearn.datasets.make_blobs with clearly separable clusters. The comparison is done using Silhouette Score and visual inspection of clusters and centroids.
 ________________________________________
 🎯 Objectives
+
 •	Generate a synthetic dataset with 4 distinct clusters
+
 •	Implement K-Means clustering from scratch (NumPy only)
+
 •	Apply Scikit-learn’s KMeans on the same dataset
+
 •	Compare clustering quality using Silhouette Score
+
 •	Visualize clusters and final centroids
+
 •	Understand convergence behavior and initialization sensitivity
 ________________________________________
 🧪 Dataset Description
