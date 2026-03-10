@@ -2,12 +2,12 @@
 ________________________________________
 📊 Implementing and Comparing K-Means Clustering on Synthetic Data
 
-📌 Project Overview
+# 📌 Project Overview
 
 This project implements the K-Means clustering algorithm from scratch using NumPy and compares its performance with Scikit-learn’s optimized KMeans implementation.
 A synthetic dataset is generated using sklearn.datasets.make_blobs with clearly separable clusters. The comparison is done using Silhouette Score and visual inspection of clusters and centroids.
 ________________________________________
-🎯 Objectives
+# 🎯 Objectives
 
 •	Generate a synthetic dataset with 4 distinct clusters
 
@@ -21,7 +21,7 @@ ________________________________________
 
 •	Understand convergence behavior and initialization sensitivity
 ________________________________________
-🧪 Dataset Description
+# 🧪 Dataset Description
 
 The dataset is generated programmatically using make_blobs.
 
@@ -37,7 +37,7 @@ Standard deviation	1.2
 
 Random state	42
 ________________________________________
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 •	Python 3.x
 
@@ -47,7 +47,7 @@ ________________________________________
 
 •	Scikit-learn
 ________________________________________
-📂 Project Structure
+# 📂 Project Structure
 
 kmeans-clustering-project/
 
@@ -59,7 +59,7 @@ kmeans-clustering-project/
 
 ├── README.md                # Project documentation
 ________________________________________
-⚙️ Implementation Details
+# ⚙️ Implementation Details
 
 🔹 Scratch K-Means (NumPy)
 
@@ -85,7 +85,7 @@ The custom K-Means implementation includes:
 
 •	Optimized convergence
 ________________________________________
-📈 Evaluation Metric
+# 📈 Evaluation Metric
 
 Silhouette Score is used to measure clustering quality.
 
@@ -93,7 +93,7 @@ Silhouette Score is used to measure clustering quality.
 
 •	Higher value → better cluster separation
 ________________________________________
-📊 Results Summary
+# 📊 Results Summary
 
 •	Scikit-learn KMeans generally achieves a slightly higher silhouette score
 
@@ -107,7 +107,7 @@ o	Optimization level
 
 o	Multiple restarts in Scikit-learn
 ________________________________________
-🖼️ Visualizations
+# 🖼️ Visualizations
 
 The project includes:
 
@@ -121,7 +121,7 @@ o	Scikit-learn KMeans
 
 These plots help visually validate clustering quality.
 ________________________________________
-▶️ How to Run
+# ▶️ How to Run
 
 1.	Install dependencies:
 
@@ -131,7 +131,7 @@ ________________________________________
 
 4.	python main.py
 ________________________________________
-📚 Learning Outcomes
+# 📚 Learning Outcomes
 
 •	Deep understanding of the K-Means algorithm
 
@@ -141,6 +141,6 @@ ________________________________________
 
 •	Insight into clustering evaluation metrics
 ________________________________________
-✅ Conclusion
+# ✅ Conclusion
 
 This project demonstrates that while a scratch implementation can effectively cluster data, Scikit-learn’s KMeans performs better due to optimized initialization and convergence techniques. Both approaches help build strong conceptual and practical understanding of unsupervised learning.
